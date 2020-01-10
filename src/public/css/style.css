@@ -1,0 +1,32 @@
+body {
+    background: #23272A !important;
+}
+.nav-item {
+    color:#99AAB5 !important;
+}
+.nav-item:hover {
+    color:#FFFFFF !important;
+}
+.float {
+    animation: float 6s ease-in-out infinite;
+}
+.blanco {
+    color: #FFFFFF;
+}
+.container-fluid {
+    margin-top: 10% !important;
+}
+.formulario {
+    background: #2C2F33;
+}
+@keyframes float {
+      0% {
+          transform: translatey(0px);
+      }
+      50% {
+          transform: translatey(-20px);
+      }
+      100% {
+          transform: translatey(0px);
+      }
+  }
